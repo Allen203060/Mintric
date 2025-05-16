@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load Gemini API key
-GEMINI_API_KEY = "Enter your Gemini Key"
+GEMINI_API_KEY = "AIzaSyDgD4aaEHJssmAs6FnN2udj6brVXXAyKOQ"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Load your custom dataset/instructions
